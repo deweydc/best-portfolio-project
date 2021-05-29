@@ -1,12 +1,15 @@
 .about__section{
     min-height: 25em;
+    background-color: rgb(238, 238, 238);
+    padding: 5em 0;
     
 }
 .about__container{
     width: 80%;
     padding: 5em auto;
-    max-width: 900px;
-    margin: 5em auto;
+    max-width: 1000px;
+    margin: auto;
+    
 }
 .about__title{
     font-size: 1.75em;

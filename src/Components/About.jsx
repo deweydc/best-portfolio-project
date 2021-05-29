@@ -8,10 +8,12 @@ import {
     faInstagram
 } from '@fortawesome/free-brands-svg-icons';
 import './About.css';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
         <section className='about__section'>
+            <h1>About</h1>
 
             <div className="about__container">
                 <div className="about__title">
@@ -35,7 +37,7 @@ const About = () => {
 
                     <div className="about__btn__container">
                         <button className='btn about__btn'>
-                            My Resume
+                            <FontAwesomeIcon icon={faDownload} size='sm' color='white' /> My Resume
                         </button>
                     </div>
                 </div>

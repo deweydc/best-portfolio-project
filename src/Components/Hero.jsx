@@ -1,8 +1,12 @@
 import React from 'react'
 import Nav from './Nav';
 import './Hero.css'
-import { IconButton } from '@material-ui/core'
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { RiArrowDownSLine } from 'react-icons/ri';
+
+
 
 const Hero = () => {
     return (
@@ -38,13 +42,8 @@ const Hero = () => {
 
 
                 <div className="icon-container">
-
-                    <IconButton>
-                        <KeyboardArrowDownIcon
-                            className='arrow-icon'
-                            fontSize='large'
-                        />
-                    </IconButton>
+                    {/* <FontAwesomeIcon icon={faArrowDown} size='2x' color='white' /> */}
+                    <RiArrowDownSLine size='3em' color='white' />
                 </div>
 
 

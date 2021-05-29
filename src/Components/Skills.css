@@ -1,6 +1,7 @@
 .skills__section{
     min-height: 25em;
-    background-color: rgba(116, 116, 116, 0.192);
+    padding: 5em 0;
+    
     display: flex;
     /* align-items: center; */
     flex-direction: column;
