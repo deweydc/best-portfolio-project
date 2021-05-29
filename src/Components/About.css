@@ -1,0 +1,45 @@
+.about__section{
+    min-height: 25em;
+    
+}
+.about__container{
+    width: 80%;
+    padding: 5em auto;
+    max-width: 900px;
+    margin: 5em auto;
+}
+.about__title{
+    font-size: 1.75em;
+}
+.about__title > h2{
+    margin-bottom: .3em;
+}
+.about__title > p{
+    margin-bottom: 1.5em;
+}
+.about__content p{
+    margin-bottom: 2em;
+}
+.about__social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 2em 2em;
+    width: 50%;
+    margin: .5em auto;
+}
+.about__btn__container{
+    display: flex;
+    justify-content:center;
+    
+
+}
+.about__btn{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin: .75em auto 1.25em;
+}
