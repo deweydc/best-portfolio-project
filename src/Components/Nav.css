@@ -1,7 +1,8 @@
 .nav__section{
     position: sticky;
-    top: 15px;
-    padding-top: 5px;
+    top: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.87);
 
 }
 .nav__container {
@@ -10,9 +11,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px auto;
+    margin: 15px auto;
     color: white;
-    margin-top: 30px;
+
     padding: 0 30px;
     text-shadow: 2px 2px #000000;
     color: rgb(255, 255, 255);

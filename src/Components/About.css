@@ -1,6 +1,7 @@
 .about__section{
     min-height: 25em;
-    background-color: rgb(238, 238, 238);
+    /* background-color: rgb(238, 238, 238); */
+    background-color: rgba(247, 247, 247, 0.692);
     padding: 5em 0;
 }
 .about__container{
@@ -28,6 +29,9 @@
     padding: 1.2em 2em 2em;
     width: 50%;
     margin: .5em auto;
+}
+.about__social a {
+    color: black;
 }
 .about__btn__container{
     display: flex;

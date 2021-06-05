@@ -26,11 +26,21 @@ const About = () => {
                     </p>
 
                     <div className="about__social">
-                        <FontAwesomeIcon icon={faFacebook} size='2x' />
-                        <FontAwesomeIcon icon={faFacebookMessenger} size='2x' />
-                        <FontAwesomeIcon icon={faInstagram} size='2x' />
-                        <FontAwesomeIcon icon={faTwitter} size='2x' />
-                        <FontAwesomeIcon icon={faGithubSquare} size='2x' />
+                        <a href="https://www.facebook.com/dewey.craddock.7">
+                            <FontAwesomeIcon icon={faFacebook} size='2x' />
+                        </a>
+                        <a href="http://m.me/dewey.craddock.7">
+                            <FontAwesomeIcon icon={faFacebookMessenger} size='2x' />
+                        </a>
+                        <a href="https://www.instagram.com/deweyc3/">
+                            <FontAwesomeIcon icon={faInstagram} size='2x' />
+                        </a>
+                        <a href="https://twitter.com/deweydc">
+                            <FontAwesomeIcon icon={faTwitter} size='2x' />
+                        </a>
+                        <a href="https://github.com/deweydc">
+                            <FontAwesomeIcon icon={faGithubSquare} size='2x' />
+                        </a>
                     </div>
 
 
