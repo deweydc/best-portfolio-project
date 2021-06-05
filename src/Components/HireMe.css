@@ -1,8 +1,14 @@
 .hireMe__section{
-    min-height: 25em;
+    min-height: 30em;
     padding: 5em auto;
     display: flex;
     align-items: center;
+    background-image: url(../Shared/images/moon-cool-pictures-for-desktop-background-best-wallpaper-.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 .hireMe__container{
     display: flex;
@@ -10,6 +16,8 @@
     margin: auto;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 50px
 }
 .hireMe__content{
     max-width: 50%;

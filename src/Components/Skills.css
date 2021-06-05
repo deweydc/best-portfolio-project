@@ -1,6 +1,8 @@
 .skills__section{
     min-height: 25em;
     padding: 5em 0;
+    max-width: 1440px;
+    margin: auto;
     
     display: flex;
     /* align-items: center; */

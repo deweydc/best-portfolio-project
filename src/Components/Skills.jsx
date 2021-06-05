@@ -14,7 +14,6 @@ import {
 const Skills = () => {
     return (
         <section className='skills__section'>
-            <h1>Skills</h1>
 
             <div className="skills__icons">
                 <FontAwesomeIcon className='faIcon' icon={faReact} size='6x' />

@@ -2,14 +2,12 @@
     min-height: 25em;
     background-color: rgb(238, 238, 238);
     padding: 5em 0;
-    
 }
 .about__container{
     width: 80%;
     padding: 5em auto;
     max-width: 1000px;
     margin: auto;
-    
 }
 .about__title{
     font-size: 1.75em;
@@ -34,8 +32,6 @@
 .about__btn__container{
     display: flex;
     justify-content:center;
-    
-
 }
 .about__btn{
     padding: 10px 30px;
