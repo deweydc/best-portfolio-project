@@ -1,22 +1,27 @@
 import React from 'react';
 import './Projects.css';
+import ProjectItem from './ProjectItem'
+import { projectList } from '../Shared/ProjectList'
 
 const Projects = () => {
+
+
+
     return (
-        <section className='projects__section'>
+        <section className='projects__section' id='Projects'>
             <h1>Projects</h1>
 
-            <div className="projects__container">
-                <div className="project project1">
-
-                </div>
-
-                <div className="project project2"></div>
-                <div className="project project3"></div>
-                <div className="project project4"></div>
-                <div className="project project5"></div>
-                <div className="project project6"></div>
-            </div>
+            {
+                projectList.map((project) => (
+                    <div className="projects__container">
+                        <ProjectItem
+                            title={project.projectName}
+                            image={project.img}
+                            description={project.description}
+                        />
+                    </div>
+                ))
+            }
 
         </section>
     )

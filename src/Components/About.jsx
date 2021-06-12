@@ -12,7 +12,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
-        <section className='about__section'>
+        <section className='about__section' id='About'>
 
             <div className="about__container">
                 <div className="about__title">
