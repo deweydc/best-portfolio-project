@@ -9,7 +9,6 @@ const Projects = () => {
 
     return (
         <section className='projects__section' id='Projects'>
-            <h1>Projects</h1>
 
             {
                 projectList.map((project) => (
