@@ -35,13 +35,7 @@ function ProjectItem({ title, image, description }) {
         return windowSize;
     }
 
-
-
-
-
     return (
-
-
 
         <div className="project">
 
@@ -56,16 +50,29 @@ function ProjectItem({ title, image, description }) {
                 <div className="bg-container">
                     {
                         (size.width <= 1000) ?
-                            <img src={image} alt="" /> : <></>
+                            <div className='mobile-project-container'>
+                                <img src={image} alt="" />
+                                <div className="project-content-container">
+                                    <div className="project-content">
+                                        <h1>
+                                            {title}
+                                        </h1>
+                                        <p>{description}</p>
+                                    </div>
 
+                                </div>
+
+                            </div> :
+
+                            <div className="project-content">
+
+                                <h1>
+                                    {title}
+                                </h1>
+                                <p>{description}</p>
+
+                            </div>
                     }
-                </div>
-                <div className="project-content">
-
-                    <h1>
-                        {title}
-                    </h1>
-                    <p>{description}</p>
 
                 </div>
             </div>

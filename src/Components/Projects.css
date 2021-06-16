@@ -26,7 +26,7 @@
     min-width: 400px;
     width: 400px;
     position: relative;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
 .image__container > img{
     width: 400px;
@@ -48,13 +48,19 @@
 }
 .project__description{
     font-size: 1.25rem;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     padding: 2em;
     min-width: 400px;
     position: relative;
+    
 }
 .project__description h1{
     padding-bottom: 1em;
+    z-index: -1;
+}
+
+.mobile-project-container{
+    color: white;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -73,10 +79,10 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 0;
+        z-index: 1;
     }
     .bg-container::after{
-        content: "";
+        /* content: "";
         display: block;
         position: absolute;
         top: 0;
@@ -84,10 +90,27 @@
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.365);
-        z-index: 0;
+        z-index: 1; */
     }
 
-    .project-content{
+    .project-content-container{
+        background-color: rgba(0, 0, 0, 0.523);
+        
+    }
+
+    .project-content-container{
         z-index: 10;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
   }
