@@ -61,6 +61,7 @@
 
 .mobile-project-container{
     color: white;
+    /* text-shadow: 2px 2px #7b7b7b; */
 }
 
 @media only screen and (max-width: 1000px) {
@@ -94,11 +95,6 @@
     }
 
     .project-content-container{
-        background-color: rgba(0, 0, 0, 0.523);
-        
-    }
-
-    .project-content-container{
         z-index: 10;
         position: absolute;
         left: 50%;
@@ -111,6 +107,11 @@
         display:flex;
         flex-direction: column;
         justify-content: center;
-
+        background-color: rgba(0, 0, 0, 0.523);
     }
-  }
+
+    .project-content p{
+        width: 80%;
+        margin: auto;
+    }
+}
